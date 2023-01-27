@@ -11,7 +11,7 @@
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="login"/>
+          <include name="loginWithValidEmailAndPassword"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- tests.LoginTest -->

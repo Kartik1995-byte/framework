@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 22 17:58:26 IST 2023</td>
+<td>Started on:</td><td>Fri Jan 27 16:18:46 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>59 seconds (59808 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62618 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginTest.login()'><b>login</b><br>Test class: tests.LoginTest</td>
+<td title='tests.LoginTest.loginWithValidEmailAndPassword()'><b>loginWithValidEmailAndPassword</b><br>Test class: tests.LoginTest</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at tests.LoginTest.login(LoginTest.java:53)
+	at tests.LoginTest.loginWithValidEmailAndPassword(LoginTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace542019831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace542019831'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace492045670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace492045670'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
-	at tests.LoginTest.login(LoginTest.java:53)
+	at tests.LoginTest.loginWithValidEmailAndPassword(LoginTest.java:52)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -113,8 +113,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>tests.LoginTest@7ce69770</td></tr>
+<td>0</td>
+<td>tests.LoginTest@5e7cd6cc</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -124,30 +124,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LogGeneration.loginGen()'><b>loginGen</b><br>Test class: tests.LogGeneration</td>
+<td title='tests.ExampleDataProvider.loginData()'><b>loginData</b><br>Test class: tests.ExampleDataProvider<br>Parameters: some@fmg.com, dummy, Failure</td>
 <td></td>
-<td>1</td>
-<td>tests.LogGeneration@183ec003</td></tr>
-<tr>
-<td title='tests.ExampleDataProvider.loginData()'><b>loginData</b><br>Test class: tests.ExampleDataProvider<br>Parameters: kart@gmail.com, Kart@123, Successfull</td>
-<td></td>
-<td>1</td>
-<td>tests.ExampleDataProvider@7d9d0818</td></tr>
-<tr>
-<td title='tests.LogGeneration2.loginGen2()'><b>loginGen2</b><br>Test class: tests.LogGeneration2<br>Parameters: kart@gmail.com, Kart@123, Successfull</td>
-<td></td>
-<td>1</td>
-<td>tests.LogGeneration2@7c137fd5</td></tr>
+<td>11</td>
+<td>tests.ExampleDataProvider@dc7df28</td></tr>
 <tr>
 <td title='tests.LogGeneration2.loginGen2()'><b>loginGen2</b><br>Test class: tests.LogGeneration2<br>Parameters: some@fmg.com, dummy, Failure</td>
 <td></td>
 <td>11</td>
-<td>tests.LogGeneration2@7c137fd5</td></tr>
+<td>tests.LogGeneration2@333d4a8c</td></tr>
 <tr>
-<td title='tests.ExampleDataProvider.loginData()'><b>loginData</b><br>Test class: tests.ExampleDataProvider<br>Parameters: some@fmg.com, dummy, Failure</td>
+<td title='tests.LogGeneration.loginGen()'><b>loginGen</b><br>Test class: tests.LogGeneration</td>
 <td></td>
-<td>11</td>
-<td>tests.ExampleDataProvider@7d9d0818</td></tr>
+<td>1</td>
+<td>tests.LogGeneration@55de24cc</td></tr>
+<tr>
+<td title='tests.ExampleDataProvider.loginData()'><b>loginData</b><br>Test class: tests.ExampleDataProvider<br>Parameters: kart@gmail.com, Kart@123, Successfull</td>
+<td></td>
+<td>1</td>
+<td>tests.ExampleDataProvider@dc7df28</td></tr>
+<tr>
+<td title='tests.LogGeneration2.loginGen2()'><b>loginGen2</b><br>Test class: tests.LogGeneration2<br>Parameters: kart@gmail.com, Kart@123, Successfull</td>
+<td></td>
+<td>1</td>
+<td>tests.LogGeneration2@333d4a8c</td></tr>
+<tr>
+<td title='tests.RegistrationTest.registrationWithValidCrediential()'><b>registrationWithValidCrediential</b><br>Test class: tests.RegistrationTest</td>
+<td></td>
+<td>1</td>
+<td>tests.RegistrationTest@30f842ca</td></tr>
 </table><p>
 </body>
 </html>
