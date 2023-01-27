@@ -7,8 +7,8 @@ public class ExtentReport {
 	
 	static ExtentReports extentReport;
 	
-	public static ExtentReports getExtentReport()
-	{
+	public static ExtentReports getExtentReport(){
+		
 		String extentReportPath = System.getProperty("user.dir")+"\\reports\\extentreport.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(extentReportPath);
 		reporter.config().setReportName("TutorialsNinja Automation Results");
@@ -17,7 +17,7 @@ public class ExtentReport {
 		extentReport = new ExtentReports();
 		extentReport.attachReporter(reporter);
 		extentReport.setSystemInfo("Operating System","Windows 10");
-		extentReport.setSystemInfo("Tested By","Arun Motoori");
+		extentReport.setSystemInfo("Tested By","Kartik Nandane");
 		
 		return extentReport;
 	}

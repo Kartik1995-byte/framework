@@ -25,22 +25,21 @@ public class ExampleDataProvider extends Base{
 	AccountPage accountPage;
 	
 	@BeforeClass
-	public void beforeClass() throws IOException
-	{
+	public void beforeClass() throws IOException{
 		
 	}
 	
 	@BeforeMethod
-	public void beforeMethod() throws IOException
-	{
+	public void beforeMethod() throws IOException{
+		
 		driver = initializeDriver();
 		String url = getBrowserData("Url");
 		driver.get(url);
 	}
 	
 	@Test(dataProvider="getLoginData")
-	public void loginData(String email, String password, String expectedResult) throws IOException
-	{		
+	public void loginData(String email, String password, String expectedResult) throws IOException{
+		
 		landingPage = new LandingPage(driver);
 		landingPage.clickOnMyAccount();
 		landingPage.clickOnLogin();
@@ -56,8 +55,8 @@ public class ExampleDataProvider extends Base{
 		accountPage.editYourAccountInfo();
 		actualResult = "Successfull";
 		}
-		catch(Exception e)
-		{
+		catch(Exception e){
+			
 			actualResult = "Failure";
 		}
 		
@@ -67,20 +66,20 @@ public class ExampleDataProvider extends Base{
 	}
 	
 	@AfterMethod
-	public void afterMethod()
-	{
+	public void afterMethod(){
+		
 		driver.close();
 	}
 	
 	@AfterClass
-	public void afterClass()
-	{
+	public void afterClass(){
+		
 		
 	}
 
 	@DataProvider
-	public Object[][] getLoginData()
-	{
+	public Object[][] getLoginData(){
+		
 		Object[][] data = {{"kart@gmail.com","Kart@123", "Successfull"}, {"some@fmg.com","dummy", "Failure"}};
 		return data;
 	}

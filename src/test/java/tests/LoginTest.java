@@ -9,7 +9,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pom.AccountPage;
@@ -18,6 +17,7 @@ import pom.LoginPage;
 import resource.Base;
 
 public class LoginTest extends Base{
+	
 	public WebDriver driver;
 	Properties prop;
 	LandingPage landingPage;
@@ -25,22 +25,21 @@ public class LoginTest extends Base{
 	AccountPage accountPage;
 	
 	@BeforeClass
-	public void beforeClass() throws IOException
-	{
+	public void beforeClass() throws IOException{
+		
 		driver = initializeDriver();
 		String url = getBrowserData("Url");
 		driver.get(url);
 	}
 	
 	@BeforeMethod
-	public void beforeMethod()
-	{
+	public void beforeMethod(){
 		
 	}
 	
 	@Test
-	public void login() throws IOException
-	{		
+	public void loginWithValidEmailAndPassword() throws IOException{
+		
 		landingPage = new LandingPage(driver);
 		landingPage.clickOnMyAccount();
 		landingPage.clickOnLogin();
@@ -59,15 +58,14 @@ public class LoginTest extends Base{
 	}
 	
 	@AfterMethod
-	public void afterMethod()
-	{
-		driver.close();
+	public void afterMethod(){
+		
 	}
 	
 	@AfterClass
-	public void afterClass()
-	{
+	public void afterClass(){
 		
+		driver.close();
 	}
 
 }

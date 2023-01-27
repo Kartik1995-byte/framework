@@ -10,13 +10,11 @@ public class AccountPage {
 	@FindBy(xpath = "//a[text()='Edit your account information']")
 	private WebElement editYourAccountInfo;
 	
-	public AccountPage(WebDriver driver)
-	{
+	public AccountPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void editYourAccountInfo()
-	{
+	public void editYourAccountInfo(){
 		editYourAccountInfo.isDisplayed();
 		
 	}

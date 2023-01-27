@@ -1,120 +1,119 @@
-23:29:36.593 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-23:29:37.395 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-23:29:37.555 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-23:29:38.013 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-23:29:38.253 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-23:29:38.382 [main] DEBUG tests.LogGeneration2 - Password got entered
-23:29:38.741 [main] DEBUG tests.LogGeneration2 - Click on login button
-23:29:38.837 [main] DEBUG tests.LogGeneration2 - User got logged in
-23:29:38.837 [main] INFO  tests.LogGeneration2 - Login Test got passed
-23:29:39.045 [main] DEBUG tests.LogGeneration2 - Browser got closed
-23:29:40.841 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-23:29:41.564 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-23:29:41.658 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-23:29:42.122 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-23:29:42.373 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-23:29:42.500 [main] DEBUG tests.LogGeneration2 - Password got entered
-23:29:42.757 [main] DEBUG tests.LogGeneration2 - Click on login button
-23:29:52.811 [main] DEBUG tests.LogGeneration2 - User didn't log in
-23:29:52.812 [main] INFO  tests.LogGeneration2 - Login Test got passed
-23:29:52.997 [main] DEBUG tests.LogGeneration2 - Browser got closed
-14:37:31.642 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got lounched
-14:37:38.665 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Navigate to application Url
-14:37:39.419 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-14:37:41.109 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on login option
-14:37:57.100 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Email addressed got entered
-14:37:57.468 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Password got entered
-14:37:59.315 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Click on login button
-14:37:59.544 [TestNG-tests-4] DEBUG tests.LogGeneration2 - User got logged in
-14:37:59.544 [TestNG-tests-4] INFO  tests.LogGeneration2 - Login Test got passed
-14:38:04.413 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got closed
-14:38:07.842 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got lounched
-14:38:10.960 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Navigate to application Url
-14:38:11.070 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-14:38:11.764 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on login option
-14:38:11.951 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Email addressed got entered
-14:38:12.127 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Password got entered
-14:38:12.653 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Click on login button
-14:38:22.760 [TestNG-tests-4] DEBUG tests.LogGeneration2 - User didn't log in
-14:38:22.760 [TestNG-tests-4] INFO  tests.LogGeneration2 - Login Test got passed
-14:38:22.964 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got closed
-16:57:08.122 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-16:57:09.150 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-16:57:09.252 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-16:57:09.704 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-16:57:10.035 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-16:57:10.159 [main] DEBUG tests.LogGeneration2 - Password got entered
-16:57:10.652 [main] DEBUG tests.LogGeneration2 - Click on login button
-16:57:10.737 [main] DEBUG tests.LogGeneration2 - User got logged in
-16:57:10.737 [main] INFO  tests.LogGeneration2 - Login Test got passed
-16:57:10.889 [main] DEBUG tests.LogGeneration2 - Browser got closed
-16:57:12.710 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-16:57:13.496 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-16:57:13.601 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-16:57:14.059 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-16:57:14.362 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-16:57:14.474 [main] DEBUG tests.LogGeneration2 - Password got entered
-16:57:14.781 [main] DEBUG tests.LogGeneration2 - Click on login button
-16:57:24.871 [main] DEBUG tests.LogGeneration2 - User didn't log in
-16:57:24.871 [main] INFO  tests.LogGeneration2 - Login Test got passed
-16:57:25.182 [main] DEBUG tests.LogGeneration2 - Browser got closed
-17:02:15.513 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-17:02:16.332 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:02:16.440 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:02:16.859 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-17:02:17.784 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:02:17.915 [main] DEBUG tests.LogGeneration2 - Password got entered
-17:02:18.386 [main] DEBUG tests.LogGeneration2 - Click on login button
-17:02:18.480 [main] DEBUG tests.LogGeneration2 - User got logged in
-17:02:18.480 [main] INFO  tests.LogGeneration2 - Login Test got passed
-17:02:18.646 [main] DEBUG tests.LogGeneration2 - Browser got closed
-17:02:22.450 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-17:02:23.261 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:02:23.353 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:02:23.768 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-17:02:24.454 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:02:24.576 [main] DEBUG tests.LogGeneration2 - Password got entered
-17:02:24.932 [main] DEBUG tests.LogGeneration2 - Click on login button
-17:02:34.996 [main] DEBUG tests.LogGeneration2 - User didn't log in
-17:02:34.996 [main] INFO  tests.LogGeneration2 - Login Test got passed
-17:02:35.180 [main] DEBUG tests.LogGeneration2 - Browser got closed
-17:41:56.822 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got lounched
-17:42:01.562 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:42:01.904 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:42:02.675 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on login option
-17:42:22.542 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:42:22.927 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Password got entered
-17:42:23.969 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Click on login button
-17:42:24.078 [TestNG-tests-4] DEBUG tests.LogGeneration2 - User got logged in
-17:42:24.078 [TestNG-tests-4] INFO  tests.LogGeneration2 - Login Test got passed
-17:42:24.339 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got closed
-17:42:26.899 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got lounched
-17:42:30.317 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:42:30.470 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:42:31.027 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Clicked on login option
-17:42:33.355 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:42:33.471 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Password got entered
-17:42:33.828 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Click on login button
-17:42:43.889 [TestNG-tests-4] DEBUG tests.LogGeneration2 - User didn't log in
-17:42:43.889 [TestNG-tests-4] INFO  tests.LogGeneration2 - Login Test got passed
-17:42:44.044 [TestNG-tests-4] DEBUG tests.LogGeneration2 - Browser got closed
-17:58:41.702 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-17:58:43.631 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:58:43.745 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:58:44.253 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-17:58:44.411 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:58:44.527 [main] DEBUG tests.LogGeneration2 - Password got entered
-17:58:45.017 [main] DEBUG tests.LogGeneration2 - Click on login button
-17:58:45.084 [main] DEBUG tests.LogGeneration2 - User got logged in
-17:58:45.084 [main] INFO  tests.LogGeneration2 - Login Test got passed
-17:58:45.208 [main] DEBUG tests.LogGeneration2 - Browser got closed
-17:58:47.878 [main] DEBUG tests.LogGeneration2 - Browser got lounched
-17:58:49.140 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
-17:58:49.226 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
-17:58:49.679 [main] DEBUG tests.LogGeneration2 - Clicked on login option
-17:58:49.966 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
-17:58:50.086 [main] DEBUG tests.LogGeneration2 - Password got entered
-17:58:50.426 [main] DEBUG tests.LogGeneration2 - Click on login button
-17:59:00.480 [main] DEBUG tests.LogGeneration2 - User didn't log in
-17:59:00.480 [main] INFO  tests.LogGeneration2 - Login Test got passed
-17:59:00.722 [main] DEBUG tests.LogGeneration2 - Browser got closed
+13:27:07.005 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+13:27:07.100 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+13:27:07.559 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+13:27:07.791 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+13:27:07.913 [main] DEBUG tests.LogGeneration2 - Password got entered
+13:27:08.215 [main] DEBUG tests.LogGeneration2 - Click on login button
+13:27:18.270 [main] DEBUG tests.LogGeneration2 - User didn't log in
+13:27:18.271 [main] INFO  tests.LogGeneration2 - Login Test got passed
+13:27:18.594 [main] DEBUG tests.LogGeneration2 - Browser got closed
+13:49:02.803 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+13:49:04.222 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+13:49:04.311 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+13:49:04.821 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+13:49:04.991 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+13:49:05.110 [main] DEBUG tests.LogGeneration2 - Password got entered
+13:49:05.456 [main] DEBUG tests.LogGeneration2 - Click on login button
+13:49:05.540 [main] DEBUG tests.LogGeneration2 - User got logged in
+13:49:05.541 [main] INFO  tests.LogGeneration2 - Login Test got passed
+13:49:05.888 [main] DEBUG tests.LogGeneration2 - Browser got closed
+13:49:08.675 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+13:49:10.083 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+13:49:10.204 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+13:49:10.743 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+13:49:11.034 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+13:49:11.222 [main] DEBUG tests.LogGeneration2 - Password got entered
+13:49:11.603 [main] DEBUG tests.LogGeneration2 - Click on login button
+13:49:21.637 [main] DEBUG tests.LogGeneration2 - User didn't log in
+13:49:21.637 [main] INFO  tests.LogGeneration2 - Login Test got passed
+13:49:21.948 [main] DEBUG tests.LogGeneration2 - Browser got closed
+14:04:24.095 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+14:04:25.885 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+14:04:25.982 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+14:04:26.454 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+14:04:26.714 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+14:04:26.847 [main] DEBUG tests.LogGeneration2 - Password got entered
+14:04:27.342 [main] DEBUG tests.LogGeneration2 - Click on login button
+14:04:27.493 [main] DEBUG tests.LogGeneration2 - User got logged in
+14:04:27.493 [main] INFO  tests.LogGeneration2 - Login Test got passed
+14:04:27.879 [main] DEBUG tests.LogGeneration2 - Browser got closed
+14:04:30.389 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+14:04:31.140 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+14:04:31.237 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+14:04:31.702 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+14:04:31.928 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+14:04:32.052 [main] DEBUG tests.LogGeneration2 - Password got entered
+14:04:32.357 [main] DEBUG tests.LogGeneration2 - Click on login button
+14:04:42.418 [main] DEBUG tests.LogGeneration2 - User didn't log in
+14:04:42.418 [main] INFO  tests.LogGeneration2 - Login Test got passed
+14:04:42.767 [main] DEBUG tests.LogGeneration2 - Browser got closed
+15:04:28.443 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+15:04:30.003 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+15:04:30.104 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+15:04:30.635 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+15:04:31.033 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+15:04:31.198 [main] DEBUG tests.LogGeneration2 - Password got entered
+15:04:31.662 [main] DEBUG tests.LogGeneration2 - Click on login button
+15:04:31.732 [main] DEBUG tests.LogGeneration2 - User got logged in
+15:04:31.732 [main] INFO  tests.LogGeneration2 - Login Test got passed
+15:04:32.038 [main] DEBUG tests.LogGeneration2 - Browser got closed
+15:04:35.000 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+15:04:35.966 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+15:04:36.058 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+15:04:36.514 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+15:04:36.801 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+15:04:36.941 [main] DEBUG tests.LogGeneration2 - Password got entered
+15:04:37.261 [main] DEBUG tests.LogGeneration2 - Click on login button
+15:04:38.856 [main] DEBUG tests.LogGeneration2 - User didn't log in
+15:04:38.856 [main] INFO  tests.LogGeneration2 - Login Test got passed
+15:08:45.494 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+15:08:46.321 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+15:08:46.620 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+15:08:47.033 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+15:08:47.133 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+15:08:47.185 [main] DEBUG tests.LogGeneration2 - Password got entered
+15:08:47.561 [main] DEBUG tests.LogGeneration2 - Click on login button
+15:08:47.656 [main] DEBUG tests.LogGeneration2 - User got logged in
+15:08:47.656 [main] INFO  tests.LogGeneration2 - Login Test got passed
+15:08:51.339 [main] DEBUG tests.LogGeneration2 - Browser got closed
+15:08:55.274 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+15:08:56.073 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+15:08:56.345 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+15:08:56.834 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+15:08:56.946 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+15:08:57.012 [main] DEBUG tests.LogGeneration2 - Password got entered
+15:08:57.354 [main] DEBUG tests.LogGeneration2 - Click on login button
+15:09:07.410 [main] DEBUG tests.LogGeneration2 - User didn't log in
+15:09:07.411 [main] INFO  tests.LogGeneration2 - Login Test got passed
+15:09:11.045 [main] DEBUG tests.LogGeneration2 - Browser got closed
+16:01:24.516 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+16:01:25.787 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+16:01:26.091 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+16:01:26.541 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+16:01:26.637 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+16:01:26.692 [main] DEBUG tests.LogGeneration2 - Password got entered
+16:01:27.131 [main] DEBUG tests.LogGeneration2 - Click on login button
+16:01:27.238 [main] DEBUG tests.LogGeneration2 - User got logged in
+16:01:27.238 [main] INFO  tests.LogGeneration2 - Login Test got passed
+16:01:30.907 [main] DEBUG tests.LogGeneration2 - Browser got closed
+16:18:59.478 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+16:19:00.261 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+16:19:00.357 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+16:19:00.793 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+16:19:00.970 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+16:19:01.110 [main] DEBUG tests.LogGeneration2 - Password got entered
+16:19:01.504 [main] DEBUG tests.LogGeneration2 - Click on login button
+16:19:01.588 [main] DEBUG tests.LogGeneration2 - User got logged in
+16:19:01.588 [main] INFO  tests.LogGeneration2 - Login Test got passed
+16:19:01.909 [main] DEBUG tests.LogGeneration2 - Browser got closed
+16:19:05.032 [main] DEBUG tests.LogGeneration2 - Browser got lounched
+16:19:05.806 [main] DEBUG tests.LogGeneration2 - Navigate to application Url
+16:19:05.896 [main] DEBUG tests.LogGeneration2 - Clicked on My account dropdown
+16:19:06.377 [main] DEBUG tests.LogGeneration2 - Clicked on login option
+16:19:06.547 [main] DEBUG tests.LogGeneration2 - Email addressed got entered
+16:19:06.660 [main] DEBUG tests.LogGeneration2 - Password got entered
+16:19:06.984 [main] DEBUG tests.LogGeneration2 - Click on login button
+16:19:17.068 [main] DEBUG tests.LogGeneration2 - User didn't log in
+16:19:17.068 [main] INFO  tests.LogGeneration2 - Login Test got passed
+16:19:17.523 [main] DEBUG tests.LogGeneration2 - Browser got closed
+17:50:47.696 [main] DEBUG tests.LogGeneration2 - Browser got lounched

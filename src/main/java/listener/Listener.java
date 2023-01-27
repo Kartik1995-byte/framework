@@ -34,6 +34,19 @@ public class Listener extends Base implements ITestListener{
 		
 		//extentTest.log(Status.PASS, testName+"got Passed"); 
 		extentTestThread.get().log(Status.PASS, testName+"got Passed");
+        extentTestThread.get().pass(result.getThrowable());
+		
+		try {
+			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+			}  catch(Exception e) {
+				e.printStackTrace();
+			}
+			try {
+				String screenShotPath = takeScreenShot(testName , driver);
+			    extentTestThread.get().addScreenCaptureFromPath(screenShotPath, testName);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 	}
 
 	@Override
@@ -42,6 +55,7 @@ public class Listener extends Base implements ITestListener{
 		String testName = result.getName();
 		
 		//extentTest.fail(result.getThrowable());    ////to make threadsafe for parallel execution
+		extentTestThread.get().log(Status.FAIL, testName+"got failed");
 		extentTestThread.get().fail(result.getThrowable());
 		
 		try {

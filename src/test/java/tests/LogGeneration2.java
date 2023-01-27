@@ -28,14 +28,14 @@ public class LogGeneration2 extends Base{
 	Logger log;
 	
 	@BeforeClass
-	public void beforeClass() throws IOException
-	{
+	public void beforeClass() throws IOException{
+		
 		
 	}
 	
 	@BeforeMethod
-	public void beforeMethod() throws IOException
-	{
+	public void beforeMethod() throws IOException{
+		
 		log = LogManager.getLogger(LogGeneration2.class.getName());
 		driver = initializeDriver();
 		log.debug("Browser got lounched");
@@ -45,8 +45,7 @@ public class LogGeneration2 extends Base{
 	}
 	
 	@Test(dataProvider="getLoginData")
-	public void loginGen2(String email, String password, String expectedResult) throws IOException
-	{		
+	public void loginGen2(String email, String password, String expectedResult) throws IOException{		
 		
 		landingPage = new LandingPage(driver);
 		landingPage.clickOnMyAccount();
@@ -70,17 +69,17 @@ public class LogGeneration2 extends Base{
 		actualResult = "Successfull";
 		
 		}
-		catch(Exception e)
-		{
+		catch(Exception e){
+			
 			log.debug("User didn't log in");
 			actualResult = "Failure";
 		}
-		if(actualResult.equalsIgnoreCase(expectedResult))
-		{
+		if(actualResult.equalsIgnoreCase(expectedResult)){
+			
 			log.info("Login Test got passed");
 		}
-		else
-		{
+		else{
+			
 			log.error("Login Test got failed");
 		}
 		
@@ -88,8 +87,8 @@ public class LogGeneration2 extends Base{
 	}
 	
 	@AfterMethod
-	public void afterMethod()
-	{
+	public void afterMethod(){
+		
 		driver.close();
 		log.debug("Browser got closed");
 	}
@@ -101,8 +100,8 @@ public class LogGeneration2 extends Base{
 	}
 
 	@DataProvider
-	public Object[][] getLoginData()
-	{
+	public Object[][] getLoginData(){
+		
 		Object[][] data = {{"kart@gmail.com","Kart@123", "Successfull"}, {"some@fmg.com","dummy", "Failure"}};
 		return data;
 	}

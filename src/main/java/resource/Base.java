@@ -23,25 +23,21 @@ public class Base {
 	public WebDriver driver;
 	public static Properties prop;
 	
-	public WebDriver initializeDriver() throws IOException
-	{
+	public WebDriver initializeDriver() throws IOException{
 		String browserName = getBrowserData("Browser");
 		
 		
-		if(browserName.equalsIgnoreCase("chrome"))
-	    {
+		if(browserName.equalsIgnoreCase("chrome")){
 		    WebDriverManager.chromedriver().setup();
 		    driver = new ChromeDriver();
 	    }
 		
-		else if(browserName.equalsIgnoreCase("firefox"))
-		{
+		else if(browserName.equalsIgnoreCase("firefox")){
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		
-		else if(browserName.equalsIgnoreCase("IE"))
-		{
+		else if(browserName.equalsIgnoreCase("IE")){
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();		
 		}
@@ -52,8 +48,8 @@ public class Base {
 		return driver;
 	}
 	
-	public static String getBrowserData(String value) throws IOException
-	{
+	public static String getBrowserData(String value) throws IOException{
+		
         prop = new Properties();
 		
 		String propPath = System.getProperty("user.dir")+"\\src\\main\\java\\resource\\browser.properties";
@@ -69,8 +65,8 @@ public class Base {
 		
 	}
 	
-	public String takeScreenShot(String testName, WebDriver driver) throws IOException
-	{
+	public String takeScreenShot(String testName, WebDriver driver) throws IOException{
+		
 		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String dest = System.getProperty("user.dir")+"\\screenshots\\"+testName+".png";
 		FileUtils.copyFile(source, new File(dest));	

@@ -13,19 +13,23 @@ public class LandingPage {
 	@FindBy(xpath = "//a[text() = 'Login']")
 	private WebElement login;
 	
-	public LandingPage(WebDriver driver)
-	{
+	@FindBy (xpath = "(//a[text() ='Register'])[1]")
+	private WebElement registration;
+	
+	public LandingPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickOnMyAccount()
-	{
+	public void clickOnMyAccount(){
 		myAccount.click();
 	}
 	
-	public void clickOnLogin()
-	{
+	public void clickOnLogin(){
 		login.click();
+	}
+	
+	public void clickOnRegistration(){
+		registration.click();
 	}
 
 }

@@ -10,6 +10,7 @@
        <class name="tests.LogGeneration2"/>
         <class name="tests.LogGeneration"/>
            <class name="tests.ExampleDataProvider"/>
+          <class name="tests.RegistrationTest"/>        
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

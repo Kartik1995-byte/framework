@@ -16,23 +16,19 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@value='Login']")
 	private WebElement loginButton;
 	
-	public LoginPage(WebDriver driver)
-	{
+	public LoginPage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 	}
 
-	public void enterEmailAddress(String Email)
-	{
+	public void enterEmailAddress(String Email){
 		emailAddress.sendKeys(Email);
 	}
 	
-	public void enterPassword(String Password)
-	{
+	public void enterPassword(String Password){
 		password.sendKeys(Password);
 	}
 	
-	public void clickOnLogin()
-	{
+	public void clickOnLogin(){
 		loginButton.click();
 	}
 }
